@@ -13,12 +13,12 @@ import java.util.Arrays;
 
 public class Task_5 {
     public static void main(String[] args) {
-        int[] number = new int[3];
         int a=3, b=9,c=-1;
-            number[0]= a;
-            number[1]= b;
-            number[2]= c;
-//        int[] number = {3,9,-1};                        //создали массив и сразу назначили
+//        int[] number = new int[3];                    //создали массив
+//            number[0]= a;                             //назначили значение в первую ячейку массива
+//            number[1]= b;
+//            number[2]= c;
+        int[] number = {a,b,c};                         //создали массив и сразу назначили
         Arrays.sort(number);                            //сортировка
         System.out.println(Arrays.toString(number));
     }

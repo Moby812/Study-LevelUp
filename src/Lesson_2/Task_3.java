@@ -9,9 +9,13 @@ package Lesson_2;
 
 public class Task_3 {
     public static void main(String[] args) {
-    int min= 25, max= 100;
-    int random =(int)(5 + Math.random()*150);
-        System.out.println(random);
+        int min= 25, max=100;
+        int random= (int)(5 + Math.random()*150);
 
+        if (random > min && random < max ){
+            System.out.println("Число \"" + random +"\" пападает в диапазон от " + min + " до " + max);
+        }else{
+            System.out.println("Число \"" + random +"\" не попало в диапазон от " + min + " до " + max);
+        }
     }
 }

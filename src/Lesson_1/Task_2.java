@@ -6,7 +6,7 @@ package Lesson_1;/*
 
 import java.util.Scanner;
 
-public class TaskTwo {
+public class Task_2 {
     public static void main(String[] args){
         System.out.println("Для формирования линейного уровнения вида (ax + b = 0)\n Введите два любых значения: ");
         Scanner scan = new Scanner(System.in);

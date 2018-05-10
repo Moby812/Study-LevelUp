@@ -5,7 +5,7 @@ package Lesson_1;/*
 
 import java.util.Scanner;
 
-public class TaskThree {
+public class Task_3 {
     public static void main(String[] args){
         System.out.println("Для формирования квадратного уровнения вида (ax*x + b * x + c = 0)\n Введите три любых значения: ");
         Scanner scan = new Scanner(System.in);

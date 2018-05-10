@@ -3,7 +3,7 @@ package Lesson_1;/*
 a и b задаете в программе, х выводите на экран.
 */
 
-public class TaskOne {
+public class Task_1 {
     public static void main(String[] args) {
 //   double a = 756.0, b = 34.0;
 //   double x = -b / a;

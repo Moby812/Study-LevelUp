@@ -8,5 +8,25 @@
 
 package Lesson_2;
 
+import java.util.Scanner;
+
 public class Task_12 {
+    public static void main(String args[]) {
+        int x;
+        int count = 0;
+        System.out.println("Вводите натуральное число, что бы узнать простое оно или нет : ");
+        Scanner sr = new Scanner(System.in);
+        x = sr.nextInt();
+        for (int i = 1; i <= x; i++) {
+            if ((x % i) == 0) {
+                count++;
+            }
+        }
+        if (count == 2) {
+            System.out.println("Введённое число \"" + x + "\" является простым.");
+        } else {
+            System.out.println("Введённое число \"" + x + "\" НЕ является простым.");
+//        System.out.println("Количество делителей :" + count);
+        }
+    }
 }
